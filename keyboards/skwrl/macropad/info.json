@@ -1,0 +1,39 @@
+{
+    "manufacturer": "skwrl",
+    "keyboard_name": "skwrl/macropad",
+    "maintainer": "skwrl",
+    "bootloader": "atmel-dfu",
+    "diode_direction": "COL2ROW",
+    "usb": {
+    "device_version": "1.0.0",
+    "pid": "0x0000",
+    "vid": "0xFEED"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder_map": true
+    },
+    "matrix_pins": {
+        "direct": [
+          ["D0", "C6"],
+          ["D1", "D4"]
+        ]
+    },
+    "processor": "atmega32u4",
+    "url": "",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0, "encoder": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1}
+            ]
+        }
+    }
+}
